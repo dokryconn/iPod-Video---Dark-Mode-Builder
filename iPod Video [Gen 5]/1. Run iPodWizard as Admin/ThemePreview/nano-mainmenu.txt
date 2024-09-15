@@ -1,0 +1,40 @@
+#######################
+#iPod Theme Previewer File#
+#######################
+#each line starting with a # will be ignored
+#the format of this file is:
+#
+#For pictures:
+#PIC,id,left,top,right,bottom,x,y
+#id = picture id in iPW
+#left,top,right,bottom are values which mean to position the picture in the screen.
+#note: if you leave right/bottom as 0 then they will be ignored and the whole image will be shown
+#x,y are where to start drawing from within the picture
+#
+#For text:
+#TEXT,lang,id,x,y,fontid
+#id = text id in strings tab
+#lang = lang block (usaully 24 for 5g and nano, 18 for others)
+#x,y = where to draw text on screen
+#note: if you put x == -1 then it will draw according to font alignment
+#if you put y==-1 then it will draw the text right below the text above (AWARE: you need at least one text without -1)
+#fontid = the fontid in layout tab in font types. alignment is taken into consideration as well.
+#
+#iPod titlebar
+PIC,24373,0,0,176,18,0,0
+PIC,25546,3,3,14,13,0,0
+PIC,24305,152,4,21,10,0,0
+#iPod title
+TEXT,24,-4,75,3,24209
+#Menus
+TEXT,24,20523,-1,22,24209
+#pic for >
+PIC,24262,168,22,6,9,0,0
+TEXT,24,24438,-1,-1,24209
+PIC,24262,168,45,6,9,0,0
+TEXT,24,24451,-1,-1,24209
+PIC,24262,168,68,6,9,0,0
+TEXT,24,28864,-1,-1,24209
+PIC,24262,168,91,6,9,0,0
+TEXT,24,24426,-1,-1,24209
+PIC,24262,168,114,6,9,0,0

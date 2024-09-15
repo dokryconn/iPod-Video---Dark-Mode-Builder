@@ -1,0 +1,15 @@
+pic13980 - Calendar day (current month, not current day)
+pic13981 - Calendar day (selected day)
+pic13982 - Calendar day (current day)
+pic13983 - Calendar day (not current month)
+pic13984 - ????
+pic13985 - ????
+pic13986 - ????
+pic14017 - Alarm bell (unknown use)
+pic15376 - Solitare small heart
+pic15377 - Solitare small diamond
+pic15378 - Solitare small club
+pic15379 - Solitare small spade
+pic15380 - Solitare selected card indicator
+pic15382 - Solitare red ace
+pic15383 - Solitare red 2
